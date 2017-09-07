@@ -43,6 +43,7 @@
 html{
   font-family: 'GT Walsheim Light', sans-serif;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
   
 }
 
