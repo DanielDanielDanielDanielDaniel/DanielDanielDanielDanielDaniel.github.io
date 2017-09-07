@@ -1,0 +1,26 @@
+<svg width="640" height="640" viewBox="0 0 640 640" id="marketCap"  preserveAspectRatio="xMidYMid meet">
+    <style>
+        #marketCapTxt text{
+            opacity:0.8;
+            font-family: 'GT America Regular';
+            font-size:9;
+            letter-spacing:11.2;
+            letter-spacing:1.13999999
+            fill:#000000
+        }
+    </style>
+    <g fill-opacity="0.04" fill="#FF2452" stroke="#FFF">
+        <circle id="AirBNBCircle" cx="319.686861" cy="321.87848" r="34.7763385"></circle>
+        <circle id="UberCircle" cx="320.388414" cy="321.484224" r="67.8042778"></circle>
+        <ellipse id="SalesForceCircle" cx="319.770858" cy="320.866668" rx="148.27664" ry="148.27664"></ellipse>
+        <ellipse id="FacebookCircle" cx="320.116567" cy="321.212376" rx="243.68384" ry="243.68384"></ellipse>
+        <ellipse id="GoogleCircle" cx="320.517996" cy="320.517996" rx="283.260466" ry="283.260466"></ellipse>
+        <circle id="AppleCircle" cx="319.961437" cy="319.961437" r="319.413532"></circle>
+    </g>
+    <text class="marketCapTxt" x="302.000672" y="321">AirBnB <tspan x="311.068558" y="333">30b</tspan></text>
+    <text class="marketCapTxt" x="307.825172" y="369">Uber <tspan x="311.550058" y="380">70b</tspan></text>    
+    <text class="marketCapTxt" x="292.528269" y="426">Salesforce <tspan x="307.753558" y="438">200b</tspan></text>
+    <text class="marketCapTxt" x="295.598244" y="514">Facebook <tspan x="307.582558" y="526">400b</tspan></text>
+    <text class="marketCapTxt" x="302.198672" y="581">Google <tspan x="307.821058" y="593">580b</tspan></text>
+    <text class="marketCapTxt" x="306.457558" y="619">Apple <tspan x="308.050558" y="631">700b</tspan></text>
+</svg>
