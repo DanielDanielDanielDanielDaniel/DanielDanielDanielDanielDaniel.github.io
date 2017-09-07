@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'GT Walsheim Regular Italic';
+    src: url('fonts/GTWalsheim-RegularOblique.eot');
+    src: url('fonts/GTWalsheim-RegularOblique.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GTWalsheim-RegularOblique.woff') format('woff'),
+         url('fonts/GTWalsheim-RegularOblique.ttf')  format('truetype');
+  font-weight: italic;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Light';
+  src: url('fonts/GTWalsheim-Light.eot');
+  src: url('fonts/GTWalsheim-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/GTWalsheim-Light.woff') format('woff'),
+       url('fonts/GTWalsheim-Light.ttf')  format('truetype');
+  font-weight: 200;
+  font-style: light;
+}
+
+
+@font-face {
+  font-family: 'GT Walsheim Thin';
+  src: url('fonts/GTWalsheim-Thin.eot');
+  src: url('fonts/GTWalsheim-Thin.eot?#iefix') format('embedded-opentype'),
+       url('fonts/GTWalsheim-Thin.woff') format('woff'),
+       url('fonts/GTWalsheim-Thin.ttf')  format('truetype');
+  font-weight: 200;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Regular';
+  src: url('fonts/GTWalsheim.eot');
+  src: url('fonts/GTWalsheim.eot?#iefix') format('embedded-opentype'),
+       url('fonts/GTWalsheim.woff') format('woff'),
+       url('fonts/GTWalsheim.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html{
+  font-family: 'GT Walsheim Light', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: none;
+}
+
+#jumbo  {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Thin';
+  font-size: 39.31px;
+  color: #000000;
+  letter-spacing: -0.3px;
+  line-height: 43px;
+}
+
+#subtitle {
+  margin-top: -17px;
+  opacity: 0.3;
+  font-family: 'GT Walsheim Thin';
+  font-size: 14.11px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 19.75px;
+}
+
+#splashscreen {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: none;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#logo {
+  margin-bottom: 10vh;
+}
+
+#arrow {
+  margin-top: 25vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
