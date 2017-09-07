@@ -43,16 +43,36 @@
 html{
   font-family: 'GT Walsheim Light', sans-serif;
   font-size: 16px;
-  -webkit-font-smoothing: antialiased;
+  
 }
 
 body {
   overflow-x: none;
 }
 
+.lead {
+  opacity: 0.6;
+  font-family: 'GT Walsheim Light';
+  font-size: 11px;
+  color: #000000;
+  letter-spacing: 0.99px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'GT Walsheim Regular';
+  font-size: 10px;
+  color: rgba(0,0,0,0.4);
+  letter-spacing: 0;
+  line-height: 16.59px;
+}
+
+/* Splashscreen */
+
 #jumbo  {
   opacity: 0.8;
-  font-family: 'GT Walsheim Thin';
+  font-family: 'GT Walsheim Light';
   font-size: 39.31px;
   color: #000000;
   letter-spacing: -0.3px;
@@ -62,7 +82,7 @@ body {
 #subtitle {
   margin-top: -17px;
   opacity: 0.3;
-  font-family: 'GT Walsheim Thin';
+  font-family: 'GT Walsheim Light';
   font-size: 14.11px;
   color: #000000;
   letter-spacing: 0;
@@ -88,16 +108,102 @@ body {
   margin-top: 25vh;
 }
 
+/* About */
 
+#about {
+  width: 100vw;
+  overflow-x: none;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 40px 28px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
 
+#about-text {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Light';
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: -0.26px;
+  line-height: 36px;
+  width: 73vw;
+}
 
+/* Specialization */
 
+#specialization {
+  width: 100vw;
+  overflow-x: none;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 40px 28px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
 
+.special-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
 
-
-
-
-
-
+.special-item {
+  display: flex;
+  flex: 1 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
 
 }
+
+.special-item > img {
+  margin-bottom: 15px;
+}
+
+
+/* Footer */
+
+.footer-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 28px;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: #0D0D0D;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+} 
+
+.footer-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-icon {
+  flex: 1 110px;
+  box-sizing: border-box;
+  padding: 25px 15px;
+
+}
+
+#footer-lead {
+  color: white;
+  margin-top: 5vh;
+}
+
+#footer-title {
+  color: white;
+  margin: 6vh 0 6vh;
+}
+
+#footer-p {
+  margin-top: 10vh;
+  color: rgba(255,255,255,0.4);
+}
+
+
+
+
+
