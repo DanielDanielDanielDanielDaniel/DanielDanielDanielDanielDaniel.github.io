@@ -47,6 +47,10 @@ html{
   
 }
 
+a, a:active, a:hover {
+  text-decoration: none;
+}
+
 body {
   overflow-x: none;
 }
@@ -67,6 +71,17 @@ p {
   color: rgba(0,0,0,0.4);
   letter-spacing: 0;
   line-height: 16.59px;
+}
+
+.section-title {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Light';
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: -0.26px;
+  line-height: 36px;
+  width: 73vw;
+  margin-bottom: 45px;
 }
 
 /* Splashscreen */
@@ -117,17 +132,7 @@ p {
   box-sizing: border-box;
   flex-direction: column;
   padding: 40px 28px;
-  border-top: 1px solid rgba(0,0,0,0.1);
-}
-
-#about-text {
-  opacity: 0.8;
-  font-family: 'GT Walsheim Light';
-  font-size: 22px;
-  color: #000000;
-  letter-spacing: -0.26px;
-  line-height: 36px;
-  width: 73vw;
+  border-top: 1px solid rgba(0,0,0,0.05);
 }
 
 /* Specialization */
@@ -138,7 +143,7 @@ p {
   box-sizing: border-box;
   flex-direction: column;
   padding: 40px 28px;
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0,0,0,0.05);
 }
 
 .special-container {
@@ -161,6 +166,218 @@ p {
   margin-bottom: 15px;
 }
 
+/* Recent Work */
+
+#work {
+  width: 100vw;
+  overflow-x: none;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 40px 28px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.work-container {
+  flex: 1 350px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+}
+
+.work-item {
+  background: #FFFFFF;
+  box-shadow: 0 2px 29px 0 rgba(0,0,0,0.09);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 30px;
+}
+
+.work-item, .work-item-title, .work-image-box {
+  transition: 0.17s ease-in all;
+}
+
+.work-item:hover {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.09);
+}
+
+.work-item:hover > .work-item-title {
+  opacity: 0.75;
+}
+
+.work-item:hover > .work-image-box {
+  opacity: 0.95;
+}
+
+.work-image-box {
+  min-height: 240px;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.work-item-title {
+  width: 100%;
+  display: flex;
+  align: items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-item-title-mid {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  width: calc(100% - 20px);
+}
+
+.work-item-line {
+  border-top: 1px solid rgba(0,0,0,0.07);
+  flex: 1 10px;
+  transform: translateY(7px);
+  margin: 0 5px;
+}
+
+.work-item-title-dot-beginning {
+  width: 10px;
+}
+
+.work-item-title-dot-end {
+  width: 10px;
+}
+
+
+.work-item-h3 {
+  margin: 0 5px;
+}
+
+#work-image-1 {
+  background: url(../img/hackerbay_brand.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#work-image-2 {
+  background: url(../img/skype_cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#work-image-3 {
+  background: url(../img/wizart_cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Testimonials */
+
+#testimonials {
+  width: 100vw;
+  overflow-x: none;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 40px 28px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+
+
+.testimonial-container {
+  flex: 1 350px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+}
+
+.testimonial-item {
+  background: #FFFFFF;
+  box-shadow: 0 2px 29px 0 rgba(0,0,0,0.09);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 30px;
+}
+
+.testimonial-sub-box {
+  padding: 10px 20px 5px 20px;
+}
+
+.testimonial-text-box {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding: 10px 30px 5px 20px;
+}
+
+.testimonial-text {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Regular Italic';
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: -0.46px;
+  line-height: 32px;
+}
+
+.testimonial-client-info-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 54px;
+  margin-top: 6px;
+}
+
+.testimonial-client-name-box {
+  flex: 3;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-client-name-name {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Regular';
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: -0.46px;
+  line-height: 24px;
+  margin: 0;
+  
+}
+
+.testimonial-client-name-company {
+  margin: 0;
+  transform: translateY(4px);
+}
+
+.testimonial-client-logo {
+  margin-right: 15px;
+  max-width: 80px;
+  max-height: 34px;
+
+  
+}
+
+.testimonial-client-avatar > img{
+  border-radius: 50px;
+  width: 54px;
+  transform: translateY(2px);
+}
+
+.testimonial-client-project-description > p{
+  margin-top: 15px;
+  opacity: 0.3;
+  font-family: 'GT Walsheim Regular';
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 16.75px;
+}
 
 /* Footer */
 
@@ -203,7 +420,6 @@ p {
   margin-top: 10vh;
   color: rgba(255,255,255,0.4);
 }
-
 
 
 
