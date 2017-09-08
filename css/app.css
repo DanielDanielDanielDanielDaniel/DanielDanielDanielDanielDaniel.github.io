@@ -54,6 +54,7 @@ a, a:active, a:hover {
 
 body {
   overflow-x: none;
+  /*cursor: url(../img/custom_cursor.png), auto;*/
 }
 
 ::-webkit-scrollbar { 
@@ -62,6 +63,12 @@ body {
 
 /* Wrapping */
 
+@media only screen and (max-width: 500px) {
+  #iphone-background {
+    display: none;
+  }
+
+}
 @media only screen and (min-width: 500px) {
 
   #phone {
@@ -415,11 +422,14 @@ p {
 
 .testimonial-client-logo {
   margin-right: 15px;
-  max-width: 80px;
-  max-height: 34px;
-
-  
 }
+
+.testimonial-client-logo > img {
+  margin-right: 5px;
+  max-width: 65px;
+  max-height: 34px;
+}
+
 
 .testimonial-client-avatar > img{
   border-radius: 50px;
@@ -597,6 +607,7 @@ p {
   flex-direction: column;
   padding: 40px 28px;
   width: 100%;
+  height: 667px;
   box-sizing: border-box;
   background-color: #0D0D0D;
   text-align: center;
