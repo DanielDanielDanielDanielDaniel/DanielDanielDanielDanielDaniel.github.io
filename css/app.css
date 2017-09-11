@@ -426,6 +426,24 @@ p {
   background-position: center;
 }
 
+#work-image-4 {
+  background: url(../img/seismograph.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#work-image-5 {
+  background: url(../img/sk_bb.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#work-image-6 {
+  background: url(../img/foodhacks.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 @media only screen and (max-width: 500px) {
 
   #work {
