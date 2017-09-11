@@ -603,14 +603,10 @@ p {
 @media only screen and (min-width: 500px) and (max-width: 1050px){
   #testimonials {
     padding: 100px 28px;
-
-
   }
   .testimonial-container {
     flex-wrap: wrap;
     padding: 0 15px;
-
-
   }
   .testimonial-item {
     flex: 1 280px;
@@ -671,13 +667,21 @@ p {
     height: 20px;
     width: 98px;
     background: url(../img/brand_13.png), #f4f4f4;
+    -webkit-animation: bf1a 17s ease-in-out infinite;
+    -moz-animation: bf1a 17s ease-in-out infinite;
+    -o-animation: bf1a 17s ease-in-out infinite;
     animation: bf1a 17s ease-in-out infinite;
+    
+
   }
 
   #brand-1b {
     height: 18px;
     width: 84px;
     background: url(../img/brand_1.png), #f4f4f4;
+    -webkit-animation: bf1b 17s ease-in-out infinite;
+    -moz-animation: bf1b 17s ease-in-out infinite;
+    -o-animation: bf1b 17s ease-in-out infinite;
     animation: bf1b 17s ease-in-out infinite;
   }
 
@@ -1221,7 +1225,55 @@ p {
   100% { opacity: 0; }
 }
 
+@-webkit-keyframes bf1a {
+  0%   { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-moz-keyframes bf1a {
+  0%   { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-o-keyframes bf1a {
+  0%   { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 @keyframes bf1b {
+  0%   { opacity: 1; }
+  40% { opacity: 1; }
+  50% { opacity: 0; }
+  90% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframess bf1b {
+  0%   { opacity: 1; }
+  40% { opacity: 1; }
+  50% { opacity: 0; }
+  90% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes bf1b {
+  0%   { opacity: 1; }
+  40% { opacity: 1; }
+  50% { opacity: 0; }
+  90% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes bf1b {
   0%   { opacity: 1; }
   40% { opacity: 1; }
   50% { opacity: 0; }
