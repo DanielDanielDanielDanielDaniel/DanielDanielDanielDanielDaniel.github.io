@@ -298,6 +298,28 @@ p {
   transform: translateY(-10px);
 }
 
+#special2 {
+  animation: special2a 18s ease-in-out infinite;
+
+}
+@keyframes special2a {
+  0%   { transform: rotateY(0deg); }
+  25% { transform: rotateY(0deg); }
+  50% { transform: rotateY(180deg); }
+  75%   { transform: rotateY(180deg); }
+  100%   { transform: rotateY(0deg); }
+}
+
+#special3 {
+  animation: special3a 9s ease-in-out infinite;
+
+}
+@keyframes special3a {
+  0%   { transform: rotate(0deg); }
+  50% { transform: rotate(-360deg); }
+  100% { transform: rotate(-360deg); }
+}
+
 @media only screen and (max-width: 500px) {
   #specialization {
     padding: 40px 28px;
