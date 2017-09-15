@@ -484,7 +484,7 @@ p {
 @media only screen and (max-width: 500px) {
 
   #work {
-    padding: 40px 28px;
+    padding: 40px 10px;
   }
   .work-container {
     flex-direction: row;
@@ -631,7 +631,7 @@ p {
   }
   .testimonial-container {
     flex-wrap: wrap;
-    padding: 0 28px;
+    padding: 0 16px;
   }
   .testimonial-item {
   }
@@ -1859,7 +1859,7 @@ Case Study
     background: url(../img/cs-2-2-mobile.jpg);
     background-size: cover;
     background-position: top center;
-    height: 671px;
+    height: 700px;
   }
   #cs-2-2 {
     background: url(../img/cs-2-1-mobile.jpg);
@@ -1871,7 +1871,7 @@ Case Study
     background: url(../img/cs-2-3-mobile.jpg);
     background-size: cover;
     background-position: top center;
-    height: 761px;
+    height: 791px;
   }
   #cs-1-teaser {
     background: url(../img/cs-1-teaser-mobile.jpg);
