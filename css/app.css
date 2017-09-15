@@ -192,6 +192,14 @@ p {
   flex-direction: column;
 }
 
+#white {
+  color: white;
+  opacity: 0.95;
+}
+
+
+
+
 #logo {
   margin-bottom: 67px;
 }
@@ -1574,14 +1582,529 @@ p {
   
 }
 
+/* 
 
 
 
+Case Study 
 
 
 
+*/
+
+/* CS top nav */
+
+.cs-topnav {
+  position: fixed;
+  width: 100vw;
+  overflow-x: none;
+  background: black;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.cs-topnav a {
+  text-decoration: none;
+  transition: 0.17s ease-in all;
+}
+
+.cs-topnav a:hover {
+  opacity: 0.6;
+}
+
+.cs-topnav-lead {
+  opacity: 0.9;
+  font-family: 'GT Walsheim Light';
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.99px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+  .cs-topnav {
+    background: black;
+    height: 28px;
+    padding: 0 8px; 
+  }
+
+  .cs-topnav-lead {
+    color: white;
+  }
+  
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+  .cs-topnav {
+    background: black;
+    height: 28px;
+    padding: 0 8px;
+  }
+  .cs-topnav-lead {
+    color: white;
+  }
+  
+}
+
+@media only screen and (min-width: 1050px) {
+
+  .cs-topnav {
+    background: white;
+    height: 20px;
+    padding: 0 20px;
+  }
+  .cs-topnav-lead {
+    color: black;
+  }
+}
+
+/* CS splash screen */
+
+.cs-splashscreen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
 
 
+@media only screen and (max-width: 500px) {
+
+  #cs-1-splash {
+    background: url(../img/cs-1_splash.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-2-splash {
+    background: url(../img/cs-2-splash-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cs-splash-box {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,1) 100%);
+  }
+
+  .cs-splash-title {
+    opacity: 0.8;
+    font-family: 'GT Walsheim Light';
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: -0.26px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+
+  #cs-1-splash {
+    background: url(../img/cs-1_splash_tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-2-splash {
+    background: url(../img/cs-2-splash-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cs-splash-box {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,1) 100%);
+  }
+
+  .cs-splash-title {
+    opacity: 0.8;
+    font-family: 'GT Walsheim Light';
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: -0.26px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+
+  .cs-splashscreen {
+
+    box-sizing: border-box;
+    width: calc(100vw - 40px);
+    height: calc(82vh);
+    margin: 20px 20px 150px;
+  }
+
+  #cs-1-splash {
+    background: url(../img/cs-1_splash_desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-2-splash {
+    background: url(../img/cs-2-splash-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cs-splash-box {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    transform: translateY(142px);
+  }
+  .cs-splash-box .lead {
+    display: none;
+  }
+
+  .cs-splash-title {
+    opacity: 0.8;
+    font-family: 'GT Walsheim Light';
+    font-weight: normal;
+    font-size: 22cpx;
+    letter-spacing: -0.26px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #white {
+    color: black;
+  }
+  
+}
+
+/* cs-overview */
+
+#hb-brand-logo {
+  width: 103px;
+  height: 103px;
+  margin-bottom: 50px;
+}
+
+
+.cs1-overview {
+  display: flex;
+  padding: 80px 0;
+  width: 100%;
+  overflow-x: none;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1px solid rgba(0,0,0,0.07);
+}
+
+.cs1-overview > h3 {
+  max-width: 580px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* cs-image-narrow & wide */
+
+.cs-image-narrow {
+  width: 100%;
+  overflow-x: none;
+}
+
+.cs-image-wide {
+  width: 100vw;
+  overflow-x: none;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+  #cs-1-1 {
+    background: url(../img/cs-1-1_mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 581px;
+  }
+  #cs-1-2 {
+    background: url(../img/cs-1-2-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 586px;
+  }
+  #cs-1-3 {
+    background: url(../img/cs-1-3-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 580px;
+  }
+  #cs-2-teaser {
+    background: url(../img/cs-2-teaser-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+  #cs-2-1 {
+    background: url(../img/cs-2-2-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 671px;
+  }
+  #cs-2-2 {
+    background: url(../img/cs-2-1-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 461px;
+  }
+  #cs-2-3 {
+    background: url(../img/cs-2-3-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 761px;
+  }
+  #cs-1-teaser {
+    background: url(../img/cs-1-teaser-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+  #cs-1-1 {
+    background: url(../img/cs-1_1_tablet.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1024px;
+  }
+  #cs-1-2 {
+    background: url(../img/cs-1-2-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 586px;
+  }
+  #cs-1-3 {
+    background: url(../img/cs-1-3-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 1240px;
+  }
+  #cs-2-teaser {
+    background: url(../img/cs-2-teaser-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 223px;
+  }
+  #cs-2-1 {
+    background: url(../img/cs-2-2-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 487px;
+  }
+  #cs-2-2 {
+    background: url(../img/cs-2-1-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 544px;
+  }
+  #cs-2-3 {
+    background: url(../img/cs-2-3-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 1127px;
+  }
+  #cs-1-teaser {
+    background: url(../img/cs-1-teaser-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  #cs-1-1 {
+    background: url(../img/cs-1_1_desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+  }
+  #cs-1-2 {
+    background: url(../img/cs-1-2-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 721px;
+  }
+  #cs-1-3 {
+    background: url(../img/cs-1-3-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 2070px;
+  }
+  #cs-2-teaser {
+    background: url(../img/cs-2-teaser-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 310px;
+  }
+
+  .cs-image-wide {
+    padding: 0 20px;
+  }
+  #cs-2-1 {
+    background: url(../img/cs-2-2-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 644px;
+  }
+  #cs-2-2 {
+    background: url(../img/cs-2-1-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 710px;
+  }
+  #cs-2-3 {
+    background: url(../img/cs-2-3-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 1171px;
+  }
+  #cs-1-teaser {
+    background: url(../img/cs-1-teaser-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+}
+
+/* cs-responsibilities */
+
+.cs1-responsibilities {
+  display: flex;
+  padding: 80px 0;
+  width: 100%;
+  overflow-x: none;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cs1-responsibilities > h4 {
+  margin-bottom: 50px;
+}
+
+.cs-responbilities-noline {
+  width: 100%;
+}
+
+#respo-1 {
+  margin-top: -50px;
+}
+
+.cs-responbilities-line {
+  width: 100%;
+  display: flex;
+  border-top: 1px solid rgba(0,0,0,0.07);
+}
+
+.cs-responbilities-line > h3, .cs-responbilities-noline > h3 {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Light';
+  font-weight: normal;
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: -0.26px;
+  line-height: 36px;
+  width: 100%;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 500px) {
+  .cs1-responsibilities {
+    padding: 0 20px;
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+  .cs1-responsibilities {
+    padding: 0 20vw;
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  
+}
+
+/* Deliverables */
+
+#deliverable-3 {
+  transform: translateY(-10px);
+}
+
+#deliverable-4 {
+  transform: translateY(-10px);
+}
+
+/* cs-teaser */
+
+.cs-teaser-wide :hover{
+  opacity: 0.7;
+ }
+
+.cs-teaser {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.teaserbox {
+  border-top: 1px solid rgba(0,0,0,0.07);
+  text-align: center;
+  margin-top: 100px;
+  transition: 0.17s ease-in all;
+  color: rgba(0,0,0,1);
+} 
+
+.teaserbox > .lead {
+  margin-top: 50px;
+}
+
+.cs-teaser-title {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Light';
+  font-weight: normal;
+  font-size: 22px;
+  letter-spacing: -0.26px;
+  line-height: 25px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+@media only screen and (min-width: 1050px) {
+  .cs-teaser-wide {
+  }
+
+  .cs-teaser {
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+  }
+}
 
 
 
