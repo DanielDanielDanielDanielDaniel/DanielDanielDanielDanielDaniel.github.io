@@ -518,6 +518,50 @@ p {
   }
 }
 
+/* Tools 
+
+.tools-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0;
+}
+
+.tool-item {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.tool-tip {
+  flex: 3 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.tool-tip > h3 {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Light';
+  font-weight: normal;
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: -0.26px;
+  line-height: 22px;
+  width: 100%;
+  text-align: center;
+} 
+
+.tool-item > img{
+  max-width: 40px;
+  max-height: 40px;
+}
+
+*/
+
 /* Testimonials */
 
 #testimonials {
@@ -1871,7 +1915,7 @@ Case Study
     background: url(../img/cs-2-3-mobile.jpg);
     background-size: cover;
     background-position: top center;
-    height: 791px;
+    height: 820px;
   }
   #cs-1-teaser {
     background: url(../img/cs-1-teaser-mobile.jpg);
