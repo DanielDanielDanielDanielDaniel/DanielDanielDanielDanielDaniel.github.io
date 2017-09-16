@@ -61,6 +61,19 @@ body {
     display: none; 
 }
 
+h3 {
+  opacity: 0.8;
+  font-family: 'GT Walsheim Light';
+  font-weight: normal;
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: -0.26px;
+  line-height: 36px;
+  width: 100%;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
 /* Wrapping */
 
 
@@ -441,7 +454,7 @@ p {
 }
 
 
-.work-item-h3 {
+.work-item-h2 {
   margin: 0 5px;
 }
 
@@ -458,13 +471,13 @@ p {
 }
 
 #work-image-3 {
-  background: url(../img/wizart_cover.jpg);
+  background: url(../img/cs-3-thumbnail.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #work-image-4 {
-  background: url(../img/seismograph.jpg);
+  background: url(../img/cs-4-thumbnail.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1708,6 +1721,20 @@ Case Study
   }
 }
 
+
+/* CS Title Section */ 
+
+.cs-title-section {
+  display: flex;
+  padding: 80px 0;
+  width: 100%;
+  overflow-x: none;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* CS splash screen */
 
 .cs-splashscreen {
@@ -1729,6 +1756,18 @@ Case Study
 
   #cs-2-splash {
     background: url(../img/cs-2-splash-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-3-splash {
+    background: url(../img/cs-3-splash-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-4-splash {
+    background: url(../img/cs-4-splash-mobile.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -1762,6 +1801,18 @@ Case Study
 
   #cs-2-splash {
     background: url(../img/cs-2-splash-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-3-splash {
+    background: url(../img/cs-3-splash-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-4-splash {
+    background: url(../img/cs-4-splash-tablet.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -1807,6 +1858,18 @@ Case Study
     background-position: center;
   }
 
+  #cs-3-splash {
+    background: url(../img/cs-3-splash-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cs-4-splash {
+    background: url(../img/cs-4-splash-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
   .cs-splash-box {
     text-align: center;
     width: 100%;
@@ -1839,6 +1902,18 @@ Case Study
 #hb-brand-logo {
   width: 103px;
   height: 103px;
+  margin-bottom: 50px;
+}
+
+#cs-3-logo {
+  width: 139px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+#cs-4-logo {
+  width: 243px;
+  height: 26px;
   margin-bottom: 50px;
 }
 
@@ -1893,8 +1968,26 @@ Case Study
     background-position: top center;
     height: 580px;
   }
+  #cs-1-teaser {
+    background: url(../img/cs-1-teaser-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
   #cs-2-teaser {
     background: url(../img/cs-2-teaser-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+  #cs-3-teaser {
+    background: url(../img/cs-3-teaser-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+  #cs-4-teaser {
+    background: url(../img/cs-4-teaser-mobile.jpg);
     background-size: cover;
     background-position: top center;
     height: 161px;
@@ -1917,12 +2010,74 @@ Case Study
     background-position: top center;
     height: 820px;
   }
-  #cs-1-teaser {
-    background: url(../img/cs-1-teaser-mobile.jpg);
+  #cs-3-1 {
+    background: url(../img/cs-3-1-mobile.jpg);
     background-size: cover;
     background-position: top center;
-    height: 161px;
+    height: 225px;
   }
+  #cs-3-2 {
+    background: url(../img/cs-3-2-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 424px;
+  }
+  #cs-3-3 {
+    background: url(../img/cs-3-3-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 336px;
+  }
+  #cs-3-4 {
+    background: url(../img/cs-3-4-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 245px;
+  }
+  #cs-3-5 {
+    background: url(../img/cs-3-5-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 237px;
+  }
+  #cs-4-1 {
+    background: url(../img/cs-4-1-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 374px;
+  }
+  #cs-4-2 {
+    background: url(../img/cs-4-2-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 458px;
+  }
+  #cs-4-3 {
+    background: url(../img/cs-4-3-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 889px;
+  }
+  #cs-4-4 {
+    background: url(../img/cs-4-4-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 514px;
+  }
+  #cs-4-5 {
+    background: url(../img/cs-4-5-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 216px;
+  }
+  #cs-4-6 {
+    background: url(../img/cs-4-6-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 216px;
+  }
+
+  
 
 }
 
@@ -1945,8 +2100,26 @@ Case Study
     background-position: top center;
     height: 1240px;
   }
+  #cs-1-teaser {
+    background: url(../img/cs-1-teaser-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 223px;
+  }
   #cs-2-teaser {
     background: url(../img/cs-2-teaser-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 223px;
+  }
+  #cs-3-teaser {
+    background: url(../img/cs-3-teaser-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 223px;
+  }
+  #cs-4-teaser {
+    background: url(../img/cs-4-teaser-tablet.jpg);
     background-size: cover;
     background-position: top center;
     height: 223px;
@@ -1969,12 +2142,73 @@ Case Study
     background-position: top center;
     height: 1127px;
   }
-  #cs-1-teaser {
-    background: url(../img/cs-1-teaser-tablet.jpg);
+  #cs-3-1 {
+    background: url(../img/cs-3-1-tablet.jpg);
     background-size: cover;
     background-position: top center;
-    height: 161px;
+    height: 460px;
   }
+  #cs-3-2 {
+    background: url(../img/cs-3-2-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 423px;
+  }
+  #cs-3-3 {
+    background: url(../img/cs-3-3-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 617px;
+  }
+  #cs-3-4 {
+    background: url(../img/cs-3-4-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 502px;
+  }
+  #cs-3-5 {
+    background: url(../img/cs-3-5-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 486px;
+  }
+  #cs-4-1 {
+    background: url(../img/cs-4-1-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 496px;
+  }
+  #cs-4-2 {
+    background: url(../img/cs-4-2-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-4-3 {
+    background: url(../img/cs-4-3-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 1842px;
+  }
+  #cs-4-4 {
+    background: url(../img/cs-4-4-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 995px;
+  }
+  #cs-4-5 {
+    background: url(../img/cs-4-5-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 443px;
+  }
+  #cs-4-6 {
+    background: url(../img/cs-4-6-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 434px;
+  }
+  
 }
 
 @media only screen and (min-width: 1050px) {
@@ -1996,8 +2230,26 @@ Case Study
     background-position: top center;
     height: 2070px;
   }
+  #cs-1-teaser {
+    background: url(../img/cs-1-teaser-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 310px;
+  }
   #cs-2-teaser {
     background: url(../img/cs-2-teaser-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 310px;
+  }
+  #cs-3-teaser {
+    background: url(../img/cs-3-teaser-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 310px;
+  }
+  #cs-4-teaser {
+    background: url(../img/cs-4-teaser-desktop.jpg);
     background-size: cover;
     background-position: top center;
     height: 310px;
@@ -2024,12 +2276,74 @@ Case Study
     background-position: top center;
     height: 1171px;
   }
-  #cs-1-teaser {
-    background: url(../img/cs-1-teaser-desktop.jpg);
+
+  #cs-3-1 {
+    background: url(../img/cs-3-1-desktop.jpg);
     background-size: cover;
     background-position: top center;
-    height: 161px;
+    height: 619px;
   }
+  #cs-3-2 {
+    background: url(../img/cs-3-2-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 575px;
+  }
+  #cs-3-3 {
+    background: url(../img/cs-3-3-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 802px;
+  }
+  #cs-3-4 {
+    background: url(../img/cs-3-4-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 674px;
+  }
+  #cs-3-5 {
+    background: url(../img/cs-3-5-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 887px;
+  }
+  #cs-4-1 {
+    background: url(../img/cs-4-1-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 634px;
+  }
+  #cs-4-2 {
+    background: url(../img/cs-4-2-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 634px;
+  }
+  #cs-4-3 {
+    background: url(../img/cs-4-3-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 2471px;
+  }
+  #cs-4-4 {
+    background: url(../img/cs-4-4-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 851px;
+  }
+  #cs-4-5 {
+    background: url(../img/cs-4-5-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 587px;
+  }
+  #cs-4-6 {
+    background: url(../img/cs-4-6-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 791px;
+  }
+  
 }
 
 /* cs-responsibilities */
@@ -2094,7 +2408,7 @@ Case Study
   
 }
 
-/* Deliverables */
+/* Products */
 
 #deliverable-3 {
   transform: translateY(-10px);
