@@ -1736,6 +1736,44 @@ Case Study
   flex-direction: column;
 }
 
+/* Profile Image */
+
+#avatar {
+  display: flex;
+  justify-content: center;
+}
+
+#avatar-img {
+  
+  border-radius: 50%;
+  margin: 10px 0 35px;
+}
+
+@media only screen and (max-width: 500px) {
+  #avatar-img {
+    margin: 25px 0 15px;
+    width: 100px;
+    height: 100px;
+  }
+}  
+
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+  #avatar-img {
+    margin: 10px 0 35px;
+    width: 131px;
+    height: 131px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  #avatar-img {
+    margin: 10px 0 35px;
+    width: 131px;
+    height: 131px;
+  }
+} 
+
+
 /* CS splash screen */
 
 .cs-splashscreen {
