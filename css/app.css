@@ -1657,13 +1657,14 @@ Case Study
   width: 100vw;
   overflow-x: none;
   background: black;
-  top: 0;
+  top: -50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
   box-sizing: border-box;
+  transition: 0.5s ease-in-out all;
 }
 
 .cs-topnav a {
@@ -1721,7 +1722,6 @@ Case Study
     color: black;
   }
 }
-
 
 /* CS Title Section */ 
 
