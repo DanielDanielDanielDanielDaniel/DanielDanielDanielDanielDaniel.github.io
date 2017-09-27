@@ -490,7 +490,7 @@ p {
 }
 
 #work-image-6 {
-  background: url(../img/foodhacks.jpg);
+  background: url(../img/cs-5-thumbnail.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1727,7 +1727,6 @@ Case Study
 
 .cs-title-section {
   display: flex;
-  padding: 80px 0;
   width: 100%;
   overflow-x: none;
   box-sizing: border-box;
@@ -1755,6 +1754,10 @@ Case Study
     width: 100px;
     height: 100px;
   }
+  .cs-title-section {
+    padding: 80px 20px;
+  }
+
 }  
 
 @media only screen and (min-width: 500px) and (max-width: 1050px){
@@ -1763,6 +1766,10 @@ Case Study
     width: 131px;
     height: 131px;
   }
+  .cs-title-section {
+    padding: 80px 50px;
+  }
+
 }
 
 @media only screen and (min-width: 1050px) {
@@ -1771,6 +1778,10 @@ Case Study
     width: 131px;
     height: 131px;
   }
+  .cs-title-section {
+    padding: 80px 150px;
+  }
+
 } 
 
 
@@ -1807,6 +1818,11 @@ Case Study
 
   #cs-4-splash {
     background: url(../img/cs-4-splash-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #cs-5-splash {
+    background: url(../img/cs-5-splash-mobile.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -1852,6 +1868,11 @@ Case Study
 
   #cs-4-splash {
     background: url(../img/cs-4-splash-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #cs-5-splash {
+    background: url(../img/cs-5-splash-tablet.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -1908,6 +1929,11 @@ Case Study
     background-size: cover;
     background-position: center;
   }
+  #cs-5-splash {
+    background: url(../img/cs-5-splash-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
   .cs-splash-box {
     text-align: center;
@@ -1957,7 +1983,7 @@ Case Study
 }
 
 
-.cs1-overview {
+.cs-overview {
   display: flex;
   padding: 80px 0;
   width: 100%;
@@ -1969,11 +1995,33 @@ Case Study
   border-top: 1px solid rgba(0,0,0,0.07);
 }
 
-.cs1-overview > h3 {
-  max-width: 580px;
-  padding: 0 20px;
-  box-sizing: border-box;
+
+
+@media only screen and (max-width: 500px) {
+  .cs-overview > h3 {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+}  
+
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+  .cs-overview > h3 {
+    
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+
 }
+
+@media only screen and (min-width: 1050px) {
+  .cs-overview > h3 {
+    
+    padding: 0 120px;
+    box-sizing: border-box;
+  }
+
+} 
 
 /* cs-image-narrow & wide */
 
@@ -2027,6 +2075,12 @@ Case Study
   }
   #cs-4-teaser {
     background: url(../img/cs-4-teaser-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+  #cs-5-teaser {
+    background: url(../img/cs-5-teaser-mobile.jpg);
     background-size: cover;
     background-position: top center;
     height: 161px;
@@ -2115,6 +2169,79 @@ Case Study
     background-position: top center;
     height: 216px;
   }
+  #cs-5-1 {
+    background: url(../img/cs-5-1-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-2 {
+    background: url(../img/cs-5-2-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-3 {
+    background: url(../img/cs-5-3-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-4 {
+    background: url(../img/cs-5-4-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-5 {
+    background: url(../img/cs-5-5-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-6 {
+    background: url(../img/cs-5-6-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-7 {
+    background: url(../img/cs-5-7-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-8 {
+    background: url(../img/cs-5-8-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 496px;
+  }
+  #cs-5-9 {
+    background: url(../img/cs-5-9-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-5-10 {
+    background: url(../img/cs-5-10-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 305px;
+  }
+  #cs-5-11 {
+    background: url(../img/cs-5-11-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 549px;
+  }
+  #cs-5-12 {
+    background: url(../img/cs-5-12-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 366px;
+  }
+
 
   
 
@@ -2159,6 +2286,12 @@ Case Study
   }
   #cs-4-teaser {
     background: url(../img/cs-4-teaser-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 223px;
+  }
+  #cs-5-teaser {
+    background: url(../img/cs-5-teaser-tablet.jpg);
     background-size: cover;
     background-position: top center;
     height: 223px;
@@ -2247,6 +2380,78 @@ Case Study
     background-position: top center;
     height: 434px;
   }
+  #cs-5-1 {
+    background: url(../img/cs-5-1-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-2 {
+    background: url(../img/cs-5-2-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-3 {
+    background: url(../img/cs-5-3-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-4 {
+    background: url(../img/cs-5-4-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-5 {
+    background: url(../img/cs-5-5-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-6 {
+    background: url(../img/cs-5-6-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-7 {
+    background: url(../img/cs-5-7-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-8 {
+    background: url(../img/cs-5-8-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 892px;
+  }
+  #cs-5-9 {
+    background: url(../img/cs-5-9-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 501px;
+  }
+  #cs-5-10 {
+    background: url(../img/cs-5-10-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 579px;
+  }
+  #cs-5-11 {
+    background: url(../img/cs-5-11-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-5-12 {
+    background: url(../img/cs-5-12-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
   
 }
 
@@ -2293,6 +2498,12 @@ Case Study
     background-position: top center;
     height: 310px;
   }
+  #cs-5-teaser {
+    background: url(../img/cs-5-teaser-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 310px;
+  }
 
   .cs-image-wide {
     padding: 0 20px;
@@ -2300,88 +2511,162 @@ Case Study
   #cs-2-1 {
     background: url(../img/cs-2-2-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 644px;
   }
   #cs-2-2 {
     background: url(../img/cs-2-1-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 710px;
   }
   #cs-2-3 {
     background: url(../img/cs-2-3-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 1171px;
   }
 
   #cs-3-1 {
     background: url(../img/cs-3-1-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 619px;
   }
   #cs-3-2 {
     background: url(../img/cs-3-2-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 575px;
   }
   #cs-3-3 {
     background: url(../img/cs-3-3-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 802px;
   }
   #cs-3-4 {
     background: url(../img/cs-3-4-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 674px;
   }
   #cs-3-5 {
     background: url(../img/cs-3-5-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 887px;
   }
   #cs-4-1 {
     background: url(../img/cs-4-1-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 634px;
   }
   #cs-4-2 {
     background: url(../img/cs-4-2-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 634px;
   }
   #cs-4-3 {
     background: url(../img/cs-4-3-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 2471px;
   }
   #cs-4-4 {
     background: url(../img/cs-4-4-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 851px;
   }
   #cs-4-5 {
     background: url(../img/cs-4-5-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 587px;
   }
   #cs-4-6 {
     background: url(../img/cs-4-6-desktop.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 791px;
   }
+
+  #cs-5-1 {
+    background: url(../img/cs-5-1-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 634px;
+  }
+  #cs-5-2 {
+    background: url(../img/cs-5-2-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 579px;
+  }
+  #cs-5-3 {
+    background: url(../img/cs-5-3-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 579px;
+  }
+  #cs-5-4 {
+    background: url(../img/cs-5-4-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 787px;
+  }
+  #cs-5-5 {
+    background: url(../img/cs-5-5-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 687px;
+  }
+  #cs-5-6 {
+    background: url(../img/cs-5-6-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 687px;
+  }
+  #cs-5-7 {
+    background: url(../img/cs-5-7-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 787px;
+  }
+  #cs-5-8 {
+    background: url(../img/cs-5-8-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 579px;
+  }
+  #cs-5-9 {
+    background: url(../img/cs-5-9-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 787px;
+  }
+  #cs-5-10 {
+    background: url(../img/cs-5-10-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 685px;
+  }
+  #cs-5-11 {
+    background: url(../img/cs-5-11-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 787px;
+  }
+  #cs-5-12 {
+    background: url(../img/cs-5-12-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 579px;
+  }
+
   
 }
 
@@ -2414,6 +2699,7 @@ Case Study
   width: 100%;
   display: flex;
   border-top: 1px solid rgba(0,0,0,0.07);
+  box-sizing: border-box;
 }
 
 .cs-responbilities-line > h3, .cs-responbilities-noline > h3 {
@@ -2444,7 +2730,9 @@ Case Study
 }
 
 @media only screen and (min-width: 1050px) {
-  
+  .cs-responbilities-noline {
+    padding: 0 70px;
+  }
 }
 
 /* Products */
@@ -2504,4 +2792,305 @@ Case Study
 }
 
 
+/* FoodHacks */
+
+#landingcontainer {
+  margin: 0 auto;
+  background: #0e1021;
+}
+
+.landing {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: none;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+  .landing img {
+    height: calc(100vh + 2px);
+    width: calc(100vw + 2px);
+    margin-left: -1px;
+    margin-top: -1px;
+    overflow-x: none;
+    box-sizing: border-box;
+  }
+}  
+
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+  .landing img {
+    height: calc(100vh + 2px);
+    width: calc(100vw + 2px);
+    margin-left: -1px;
+    margin-top: -1px;
+    overflow-x: none;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .landing img {
+    height: calc(100vh + 2px);
+    width: calc(100vw + 2px);
+    margin-left: -1px;
+    margin-top: -1px;
+    overflow-x: none;
+    box-sizing: border-box;
+  }
+  #layer1, #layer2, #layer3, #layer4, #layer5, #layer6 {
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    box-sizing: border-box;
+  }
+} 
+
+
+.mobile_wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#layer1 {
+  background: url(../img/nlayer-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+#layer2 {
+  background: url(../img/nlayer-02.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+#layer3 {
+  background: url(../img/nlayer-03.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+#layer4 {
+  background: url(../img/nlayer-04.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+#layer5 {
+  background: url(../img/nlayer-05.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+#layer6 {
+  background: url(../img/nlayer-06.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#layer6 {
+  position: absolute;
+}
+/*#fixer {
+  z-index: 1;
+  height: 2px;
+  width: 100vw;
+  border-bottom: 1px solid #0e1021;
+  position: absolute;
+  bottom: -1px;
+}*/
+#layer3 {
+  animation: layer3 3.8s infinite;
+}
+#layer4 {
+  animation: layer4 4.2s infinite;
+}
+#layer5 {
+  animation: layer5 3.5s infinite;
+}
+#layer6 {
+  animation: layer6 11s infinite;
+}
+
+@-moz-keyframes layer3 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes layer3 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes layer3 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes layer3 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes layer6 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-webkit-keyframes layer6 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-o-keyframes layer6 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@keyframes layer6 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-moz-keyframes layer4 {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@-webkit-keyframes layer4 {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@-o-keyframes layer4 {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@keyframes layer4 {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@-moz-keyframes layer5 {
+  0% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes layer5 {
+  0% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes layer5 {
+  0% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes layer5 {
+  0% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
