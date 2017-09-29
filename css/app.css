@@ -215,11 +215,23 @@ p {
 
 #logo {
   margin-bottom: 67px;
+  transition: 0.3s ease-in all;
+  z-index: 1;
+}
+
+#logo2 {
+  position: absolute;
+  transform: translateY(-177px);
+  transition: 0.3s ease-in all;
+  width: 105px;
+  height: 83px;
+  opacity: 0;
 }
 
 #arrow {
   margin-top: 160px;
   animation: arrow1 2s ease-in-out infinite;
+  transition: 0.3s ease-in all;
 }
 
 @keyframes arrow1 {
@@ -1657,7 +1669,6 @@ Case Study
   width: 100vw;
   overflow-x: none;
   background: black;
-  top: -50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1691,6 +1702,7 @@ Case Study
     background: black;
     height: 28px;
     padding: 0 8px; 
+
   }
 
   .cs-topnav-lead {
@@ -1717,6 +1729,7 @@ Case Study
     background: white;
     height: 20px;
     padding: 0 20px;
+    top: 0px;
   }
   .cs-topnav-lead {
     color: black;
