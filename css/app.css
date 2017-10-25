@@ -252,14 +252,12 @@ p {
     min-height: 750px;
   }
   #logo{
-    width: 100px;
   }
 
 }
 
 @media only screen and (min-width: 1050px) {
   #logo{
-    width: 110px;
   }
   #splashscreen {
     min-height: 725px;
@@ -496,7 +494,7 @@ p {
 }
 
 #work-image-5 {
-  background: url(../img/sk_bb.jpg);
+  background: url(../img/cs-6-thumbnail.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1839,6 +1837,11 @@ Case Study
     background-size: cover;
     background-position: center;
   }
+  #cs-6-splash {
+    background: url(../img/cs-6-splash-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
   .cs-splash-box {
     text-align: center;
@@ -1886,6 +1889,11 @@ Case Study
   }
   #cs-5-splash {
     background: url(../img/cs-5-splash-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #cs-6-splash {
+    background: url(../img/cs-6-splash-tablet.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -1944,6 +1952,11 @@ Case Study
   }
   #cs-5-splash {
     background: url(../img/cs-5-splash-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #cs-6-splash {
+    background: url(../img/cs-6-splash-desktop.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -2094,6 +2107,12 @@ Case Study
   }
   #cs-5-teaser {
     background: url(../img/cs-5-teaser-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 161px;
+  }
+  #cs-5-teaser {
+    background: url(../img/cs-6-teaser-mobile.jpg);
     background-size: cover;
     background-position: top center;
     height: 161px;
@@ -2254,8 +2273,42 @@ Case Study
     background-position: top center;
     height: 366px;
   }
-
-
+  #cs-6-1 {
+    background: url(../img/cs-6-1-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 565px;
+  }
+  #cs-6-2 {
+    background: url(../img/cs-6-2-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-6-3 {
+    background: url(../img/cs-6-3-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-6-4 {
+    background: url(../img/cs-6-4-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 789px;
+  }
+  #cs-6-5 {
+    background: url(../img/cs-6-5-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
+  #cs-6-6 {
+    background: url(../img/cs-6-6-mobile.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 616px;
+  }
   
 
 }
@@ -2465,6 +2518,42 @@ Case Study
     background-position: top center;
     height: 927px;
   }
+  #cs-6-1 {
+    background: url(../img/cs-6-1-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 698px;
+  }
+  #cs-6-2 {
+    background: url(../img/cs-6-2-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 785px;
+  }
+  #cs-6-3 {
+    background: url(../img/cs-6-3-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-6-4 {
+    background: url(../img/cs-6-4-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 537px;
+  }
+  #cs-6-5 {
+    background: url(../img/cs-6-5-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
+  #cs-6-6 {
+    background: url(../img/cs-6-6-tablet.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 927px;
+  }
   
 }
 
@@ -2513,6 +2602,12 @@ Case Study
   }
   #cs-5-teaser {
     background: url(../img/cs-5-teaser-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 310px;
+  }
+  #cs-6-teaser {
+    background: url(../img/cs-6-teaser-desktop.jpg);
     background-size: cover;
     background-position: top center;
     height: 310px;
@@ -2678,6 +2773,42 @@ Case Study
     background-size: cover;
     background-position: center;
     height: 579px;
+  }
+  #cs-6-1 {
+    background: url(../img/cs-6-1-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 463px;
+  }
+  #cs-6-2 {
+    background: url(../img/cs-6-2-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 921px;
+  }
+  #cs-6-3 {
+    background: url(../img/cs-6-3-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 944px;
+  }
+  #cs-6-4 {
+    background: url(../img/cs-6-4-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 579px;
+  }
+  #cs-6-5 {
+    background: url(../img/cs-6-5-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1031px;
+  }
+  #cs-6-6 {
+    background: url(../img/cs-6-6-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 822px;
   }
 
   
