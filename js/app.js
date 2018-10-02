@@ -10,6 +10,23 @@
 //   });
 // });
 
+// bodymovin icon animations
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('bm'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'img/render_3.json'
+});
+
+// var animation = bodymovin.loadAnimation({
+//   container: document.getElementById('bm2'),
+//   renderer: 'svg',
+//   loop: true,
+//   autoplay: true,
+//   path: 'img/render_2.json'
+// });
 
 // top logo verschwindet nach click
 
