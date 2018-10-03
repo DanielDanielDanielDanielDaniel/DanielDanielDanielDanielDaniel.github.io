@@ -17,7 +17,29 @@ var animation = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
+  path: 'img/render_5.json'
+});
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('bm2'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
   path: 'img/render_3.json'
+});
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('bm6'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'img/render_6.json'
+});
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('bm7'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'img/render_7.json'
 });
 
 // var animation = bodymovin.loadAnimation({
