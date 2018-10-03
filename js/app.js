@@ -25,7 +25,7 @@ var animation = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'img/render_3.json'
+  path: 'img/render_9.json'
 });
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('bm6'),
