@@ -1580,7 +1580,7 @@ p {
 }
 
 .footer-container {
-  color: white;
+
   display: flex;
   flex-direction: column;
   padding: 40px 28px;
@@ -1596,10 +1596,10 @@ p {
 .footer-icon-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-icon {
-  flex: 1 50px;
   box-sizing: border-box;
   padding: 25px 15px;
 
@@ -1634,8 +1634,10 @@ p {
 }
 
 #footer-p {
-  margin-top: 80px;
-  color: rgba(255,255,255,0.4);
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: rgba(0,0,0,0.4);
+  text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
