@@ -13,6 +13,14 @@
 // bodymovin icon animations
 
 var animation = bodymovin.loadAnimation({
+  container: document.getElementById('loader'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'img/loader.json'
+});
+
+var animation = bodymovin.loadAnimation({
   container: document.getElementById('world'),
   renderer: 'svg',
   loop: true,
