@@ -738,6 +738,68 @@ p {
   }
 }
 
+/* Publications */
+
+#publications {
+  box-sizing: border-box;
+  padding: 60px 0 100px;
+
+}
+
+.publications-image {
+  width: 42px;
+  height: 42px;
+}
+
+.publications-item {
+  background: #FFFFFF;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  flex-direction: row;
+  text-align: left;
+  margin: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  flex: 1;
+  min-width: 330px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.17s ease-in-out all;
+}
+
+.publications-item:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transform: translateY(-3px);
+}
+
+.publications-text-box {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 0 0 0 15px;
+
+}
+
+.publications-title {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+  font-size: 18px;
+  letter-spacing: -0.46px;
+  line-height: 32px;
+  transform: translateY(9px);
+}
+
+.publications-text-box p {
+  transform: translateY(-3px);
+}
+
 /* Brands */
 
 .brands {
@@ -760,10 +822,8 @@ p {
 @media only screen and (max-width: 500px) {
   .brands {
     min-height: 580px;
-    transform: translateY(-222px);
     background-image: linear-gradient(-180deg, #FFFFFF 0%, #F4F4F4 14%);
-    margin-bottom: -222px;
-    padding-top: 222px;
+    padding: 70px 0;
   }
 
   .brand-item {
@@ -953,10 +1013,11 @@ p {
 @media only screen and (min-width: 500px) and (max-width: 1050px){
   .brands {
     min-height: 320px;
-    transform: translateY(-222px);
-    background-image: linear-gradient(-180deg, #FFFFFF 0%, #F4F4F4 14%);
-    margin-bottom: -222px;
-    padding-top: 222px;
+    margin-top: 100px;
+    /*transform: translateY(-222px);*/
+    /*background-image: linear-gradient(-180deg, #FFFFFF 0%, #F4F4F4 14%);*/
+    /*margin-bottom: -222px;*/
+    /*padding-top: 222px;*/
   }
 
   .brand-item {
@@ -1141,7 +1202,7 @@ p {
   }
 
   .brands {
-    margin: -50px 0 50px;
+    margin: 50px 0 50px;
   }
 
   .brand-item {
